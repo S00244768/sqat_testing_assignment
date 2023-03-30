@@ -15,7 +15,7 @@
 			double premium;
 			if (location == "rural")
             {
-				if ((age >= 18) && (age < 30))
+				if ((age >= 18) && (age <= 30))
                 {
 					premium = 5.0;
 				}
