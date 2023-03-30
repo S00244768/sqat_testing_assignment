@@ -2,7 +2,8 @@ using Moq;
 
 namespace InsuranceService.Tests
 {
-    public class Tests
+    [TestFixture]
+    public class WhiteBoxTests
     {
 
         [Test]
