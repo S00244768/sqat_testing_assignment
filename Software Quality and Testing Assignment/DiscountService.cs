@@ -10,18 +10,4 @@ namespace Software_Quality_and_Testing_Assignment
     {
         double GetDiscount();
     }
-    public class ImplementationClass : DiscountService
-    {
-        double DiscountService.GetDiscount()
-        {
-            throw new NotImplementedException();
-        }
-
-        static void Main()
-        {
-            DiscountService obj = new ImplementationClass();
-
-            obj.GetDiscount();
-        }
-    }
 }

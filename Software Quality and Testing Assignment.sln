@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32519.379
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Software Quality and Testing Assignment", "Software Quality and Testing Assignment\Software Quality and Testing Assignment.csproj", "{607D05DC-23AE-4246-ACAB-2B06EDB371E9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InsuranceService", "Software Quality and Testing Assignment\InsuranceService.csproj", "{607D05DC-23AE-4246-ACAB-2B06EDB371E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InsuranceService.Tests", "InsuranceService.Tests\InsuranceService.Tests.csproj", "{0F1D64E7-8BCE-49FC-AD72-C158D1DC4E5D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{607D05DC-23AE-4246-ACAB-2B06EDB371E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{607D05DC-23AE-4246-ACAB-2B06EDB371E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{607D05DC-23AE-4246-ACAB-2B06EDB371E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F1D64E7-8BCE-49FC-AD72-C158D1DC4E5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F1D64E7-8BCE-49FC-AD72-C158D1DC4E5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F1D64E7-8BCE-49FC-AD72-C158D1DC4E5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F1D64E7-8BCE-49FC-AD72-C158D1DC4E5D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
