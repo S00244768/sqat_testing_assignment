@@ -2,7 +2,15 @@
 {
     public class InsuranceService
     {
-		public double CalcPremium(int age, string location, DiscountService ds)
+
+		private readonly DiscountService ds;
+
+        public InsuranceService(DiscountService ds)
+        {
+            this.ds = ds;
+        }
+
+        public double CalcPremium(int age, string location)
 		{
 			double premium;
 			if (location == "rural")
@@ -31,8 +39,6 @@
 			else
 				premium = 0.0;
 
-			/*DiscountService ds = new DiscountService();
-			double discount = ds.GetDiscount();*/
 			double discount = ds.GetDiscount();
 			if (age >= 50)
 				premium = premium * discount;
