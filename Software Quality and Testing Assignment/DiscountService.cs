@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Software_Quality_and_Testing_Assignment
+namespace InsuranceService
 {
     public interface DiscountService
     {
