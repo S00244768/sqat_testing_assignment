@@ -5,11 +5,11 @@ using Microsoft.Extensions.Logging;
 
 namespace InsuranceService.Web.Pages
 { 
-    class NoDiscountService : DiscountService
+    class Always15DiscountService : DiscountService
     {
         public double GetDiscount()
         {
-            return 1;
+            return 0.85;
         }
     }
     
@@ -21,7 +21,7 @@ namespace InsuranceService.Web.Pages
         public PrivacyModel(ILogger<PrivacyModel> logger)
         {
             _logger = logger;
-            ins = new InsuranceService(new NoDiscountService());
+            ins = new InsuranceService(new Always15DiscountService());
         }
 
         public void OnGet()
