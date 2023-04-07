@@ -1,19 +1,40 @@
 @page
+@using System.Globalization
 @model PrivacyModel
 @{
     ViewData["Title"] = "Premium Calculator";
 }
 <h1>@ViewData["Title"]</h1>
 
-<form>
+<form method="post">
     <div class="form-floating mb-3">
-      <input type="number" class="form-control" id="age" placeholder="42">
-      <label for="age">Account holder age</label>
+        <input type="number" class="form-control" id="age" asp-for="Age" placeholder="42">
+        <label for="age">Account holder age</label>
     </div>
     <div class="form-floating mb-3">
-      <input type="email" class="form-control" id="location" placeholder="e. g. 'urban' or 'rural'">
-      <label for="location">Account holder location</label>
+        <input type="text" class="form-control" id="location" asp-for="Location" placeholder="e. g. 'urban' or 'rural'">
+        <label for="location">Account holder location</label>
     </div>
 
-    <button type="button" class="btn btn-outline-success btn-lg">Calculate</button>
+    <button type="submit" class="btn btn-success btn-lg">Calculate</button>
 </form>
+
+<br/>
+@if (ViewData.TryGetValue("premium", out var val))
+{
+    @if (val is double premium)
+    {
+        @if (premium == 0)
+        {
+            <div class="alert alert-danger"><strong>Error:</strong> Invalid age or location</div>
+        }
+        else
+        {
+            <div class="alert alert-primary"><strong>Premium:</strong> @premium.ToString(CultureInfo.CurrentCulture)€</div>
+        }
+    }
+    else
+    {
+        <div class="alert alert-danger"><strong>Internal error:</strong> Expected type double got @val?.GetType().FullName</div>
+    }
+}
