@@ -1995,11 +1995,11 @@
   }],
   "suites": [{
     "id": "4074e17d-7f78-4021-9d9a-f1f87bf90898",
-    "name": "Default Suite",
+    "name": "InsuranceServiceWeb",
     "persistSession": false,
     "parallel": false,
     "timeout": 300,
-    "tests": []
+    "tests": ["87d92a20-5f97-45d1-9327-e64c4063a028", "8db75cc5-d82f-4038-a747-78aa67b98aa8", "f66a0919-80ea-4269-afd0-eb252a1fb8c1", "ec740dbf-880c-4fb9-a309-531a90f2df2c", "889cf644-1b60-4715-be10-a70f880a425d", "97dd6ab2-5de3-43d5-99bb-fe1ca6962ab0", "f7d86932-7b42-406b-b688-f87fd3560ca0", "cb3cb8e7-d24b-46e3-8e65-5bca708b20e6", "cff57d08-f9f3-49fa-a6d6-d50ef5cdc556", "4329f88c-bd7e-4bca-a989-460cea4384b4", "0515aa44-289e-4a7b-b527-f61949932c93", "316c9578-2d74-4ec6-b421-7350f7847fd3", "f3682b01-335f-4b3c-8c7b-a75281a52613", "d3543645-5511-4abf-b9cc-4fe151f10172", "fa59f8f9-7ea8-401f-8c08-d51b8fa9b15e", "c1ac35e4-dbd5-40c0-9702-991ec7353850", "a8204770-5c26-499c-8bc0-cac65b84efc6", "005a6c0b-d78d-4b2b-ac56-f807ad7cda66"]
   }],
   "urls": ["http://localhost:5126/", "http://localhost:5126/CalcPremium"],
   "plugins": []
