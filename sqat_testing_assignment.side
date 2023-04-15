@@ -369,7 +369,7 @@
         ["css=.alert", "css:finder"],
         ["xpath=//main/div", "xpath:position"]
       ],
-      "value": "Premium: 2,5€"
+      "value": "Premium: 2.5€"
     }]
   }, {
     "id": "ec740dbf-880c-4fb9-a309-531a90f2df2c",
@@ -829,7 +829,7 @@
         ["css=.alert", "css:finder"],
         ["xpath=//main/div", "xpath:position"]
       ],
-      "value": "Premium: 4,25€"
+      "value": "Premium: 4.25€"
     }]
   }, {
     "id": "c1ac35e4-dbd5-40c0-9702-991ec7353850",
@@ -921,7 +921,7 @@
         ["css=.alert", "css:finder"],
         ["xpath=//main/div", "xpath:position"]
       ],
-      "value": "Premium: 2,125€"
+      "value": "Premium: 2.125€"
     }]
   }, {
     "id": "c7dde57d-8881-485b-acc1-4644fb3e09a6",
@@ -1013,7 +1013,7 @@
         ["css=.alert", "css:finder"],
         ["xpath=//main/div", "xpath:position"]
       ],
-      "value": "Premium: 2,5€"
+      "value": "Premium: 2.5€"
     }]
   }, {
     "id": "f66a0919-80ea-4269-afd0-eb252a1fb8c1",
@@ -1105,7 +1105,7 @@
         ["css=.alert", "css:finder"],
         ["xpath=//main/div", "xpath:position"]
       ],
-      "value": "Premium: 2,125€"
+      "value": "Premium: 2.125€"
     }]
   }, {
     "id": "cb3cb8e7-d24b-46e3-8e65-5bca708b20e6",
@@ -1319,7 +1319,7 @@
         ["css=.alert", "css:finder"],
         ["xpath=//main/div", "xpath:position"]
       ],
-      "value": "Premium: 4,25€"
+      "value": "Premium: 4.25€"
     }]
   }, {
     "id": "4329f88c-bd7e-4bca-a989-460cea4384b4",
@@ -1898,7 +1898,7 @@
         ["css=.alert", "css:finder"],
         ["xpath=//main/div", "xpath:position"]
       ],
-      "value": "Premium: 2,5€"
+      "value": "Premium: 2.5€"
     }]
   }, {
     "id": "316c9578-2d74-4ec6-b421-7350f7847fd3",
