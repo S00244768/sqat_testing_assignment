@@ -178,7 +178,7 @@ public class InsuranceServiceWebTest {
     driver.Navigate().GoToUrl("http://localhost:5126/CalcPremium");
     driver.Manage().Window.Size = new System.Drawing.Size(1024, 714);
     driver.FindElement(By.Id("age")).Click();
-    driver.FindElement(By.Id("age")).SendKeys("-5");
+    driver.FindElement(By.Id("age")).SendKeys("5");
     driver.FindElement(By.Id("location")).Click();
     driver.FindElement(By.Id("location")).SendKeys("urban");
     driver.FindElement(By.CssSelector(".btn")).Click();
@@ -188,22 +188,7 @@ public class InsuranceServiceWebTest {
   public void reprrural24() {
     driver.Navigate().GoToUrl("http://localhost:5126/CalcPremium");
     driver.Manage().Window.Size = new System.Drawing.Size(1024, 714);
-    {
-      var element = driver.FindElement(By.CssSelector("html"));
-      Actions builder = new Actions(driver);
-      builder.MoveToElement(element).ClickAndHold().Perform();
-    }
-    {
-      var element = driver.FindElement(By.CssSelector("html"));
-      Actions builder = new Actions(driver);
-      builder.MoveToElement(element).Perform();
-    }
-    {
-      var element = driver.FindElement(By.CssSelector("html"));
-      Actions builder = new Actions(driver);
-      builder.MoveToElement(element).Release().Perform();
-    }
-    driver.FindElement(By.CssSelector("html")).Click();
+    driver.FindElement(By.Id("age")).Click();
     driver.FindElement(By.Id("age")).SendKeys("24");
     driver.FindElement(By.Id("location")).Click();
     driver.FindElement(By.Id("location")).SendKeys("rural");

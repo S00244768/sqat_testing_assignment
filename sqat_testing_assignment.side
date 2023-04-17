@@ -1507,7 +1507,7 @@
     }]
   }, {
     "id": "f3682b01-335f-4b3c-8c7b-a75281a52613",
-    "name": "invalid_urban-5",
+    "name": "invalid_urban5",
     "commands": [{
       "id": "df013fa3-d0cf-43b6-9652-ce317f4b4503",
       "comment": "",
@@ -1547,7 +1547,7 @@
         ["xpath=//input[@id='age']", "xpath:attributes"],
         ["xpath=//input", "xpath:position"]
       ],
-      "value": "-5"
+      "value": "5"
     }, {
       "id": "aa200d2d-3ad5-4fcf-94be-df65f4fe1ce0",
       "comment": "",
@@ -1615,40 +1615,10 @@
       "targets": [],
       "value": ""
     }, {
-      "id": "e0379313-0d1f-4d44-b5f5-9d823f6a7fee",
-      "comment": "",
-      "command": "mouseDownAt",
-      "target": "css=html",
-      "targets": [
-        ["css=html", "css:finder"],
-        ["xpath=//html", "xpath:position"]
-      ],
-      "value": "-5,188"
-    }, {
-      "id": "17bb7aa7-f693-409e-971a-0a598b2e89f3",
-      "comment": "",
-      "command": "mouseMoveAt",
-      "target": "css=html",
-      "targets": [
-        ["css=html", "css:finder"],
-        ["xpath=//html", "xpath:position"]
-      ],
-      "value": "-5,188"
-    }, {
-      "id": "2910c0f3-7585-4a9f-a6a6-400ea2f30767",
-      "comment": "",
-      "command": "mouseUpAt",
-      "target": "css=html",
-      "targets": [
-        ["css=html", "css:finder"],
-        ["xpath=//html", "xpath:position"]
-      ],
-      "value": "-5,188"
-    }, {
       "id": "c450d573-875e-4c5f-80a3-d7aac1903392",
       "comment": "",
       "command": "click",
-      "target": "css=html",
+      "target": "id=age",
       "targets": [
         ["css=html", "css:finder"],
         ["xpath=//html", "xpath:position"]
